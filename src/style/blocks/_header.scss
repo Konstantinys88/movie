@@ -1,0 +1,8 @@
+.header {
+    background-color: #312b45;
+    &__flex-wrapper {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}

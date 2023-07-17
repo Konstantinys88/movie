@@ -1,0 +1,14 @@
+.menu {
+    &__list {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        padding: 0;
+    }
+    &__link {
+        text-decoration: none;
+        color: $text;
+        // text-transform: uppercase;
+        font-family: 'Montserrat';
+    }
+}
