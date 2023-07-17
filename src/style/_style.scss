@@ -1,0 +1,20 @@
+@import './var';
+@import './fonts';
+
+body {
+    background-color: $backGroundColoor;
+    color: $text;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
