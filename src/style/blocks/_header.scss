@@ -1,8 +1,16 @@
 .header {
-    background-color: #312b45;
+
     &__flex-wrapper {
+        margin-top: 10px;
         display: flex;
-        justify-content: space-between;
-        
+        justify-content: space-around;
+        border-radius: 10px;
+        background-color: #312b45;
+    }
+    &__dropDown {
+        margin-top: 10px;
+        height: 400px;
+        border-radius: 10px;
+        background-color: #312b45;
     }
 }
