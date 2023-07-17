@@ -2,9 +2,13 @@
 
     &__flex-wrapper {
         margin-top: 10px;
+        padding: 25px;
+
         display: flex;
-        justify-content: space-around;
+        gap: 30px;
+
         border-radius: 10px 10px 0 0;
+
         transition: all 1s ease;
         &--active {
             background-color: #312b45;
@@ -15,6 +19,7 @@
     &__dropDown {
         opacity: 0;
         height: 400px;
+        padding: 25px;
         border-radius: 10px;
         background-color: #312b45;
         border-radius: 0 0 10px 10px;

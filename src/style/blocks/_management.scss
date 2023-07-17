@@ -3,6 +3,8 @@
     align-items:center;
     gap: 15px;
     color: $text;
+    justify-content: flex-end;
+    flex: 1;
     // text-transform: uppercase;
-    font-family: 'Montserrat';
+    // font-family: 'Montserrat';
 }
