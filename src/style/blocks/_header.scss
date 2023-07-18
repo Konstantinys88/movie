@@ -21,6 +21,8 @@
         }
     }
     &__dropDown {
+        display: flex;
+        gap: 50px;
         position: absolute;
         width: 100%;
         opacity: 0;
@@ -56,6 +58,16 @@
                 color:aliceblue;
             }
         }
+    }
+
+    &__dropDownCoutriesAndYears {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__dropDownTitle {
+        color:aliceblue;
     }
 
 }
