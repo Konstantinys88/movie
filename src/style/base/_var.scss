@@ -1,2 +1,14 @@
 
-$text: rgb(112, 107, 107);
+$text: #706b6b;
+$purple: #6e067c;
+$valhala: #291d547a;
+$martinique: #312b45;
+$white: #ffffff;
+
+
+
+// $background: -webkit-linear-gradient(90deg, #3b51a1,#6e067c);/* Chrome 10-25, Safari 5.1-6 */                          
+$gradient: linear-gradient(90deg, #3b51a1,#6e067c);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+
+// background: -webkit-linear-gradient(90deg, #6e067c,#3b51a1);/* Chrome 10-25, Safari 5.1-6 */                          
+$gradientReverse: linear-gradient(90deg, #6e067c,#3b51a1);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             

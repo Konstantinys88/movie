@@ -15,7 +15,7 @@
 
         transition: all 1s ease;
         &--active {
-            background-color: #312b45;
+            background-color: $martinique;
             transition: all 1s ease;
             border-bottom: 1px solid rgb(112, 107, 107);
         }
@@ -29,7 +29,7 @@
         height: 400px;
         padding: 25px;
         border-radius: 10px;
-        background-color: #312b45;
+        background-color: $martinique;
         border-radius: 0 0 10px 10px;
         transition: all 1s ease;
         &--active {
@@ -52,6 +52,15 @@
 
     &__dropDownItem {
         padding-top: 10px;
+        &--hover {
+            padding-left: 30px;
+            &:hover {
+                border-left: 2px solid rgb(255, 255, 255);
+            }
+        }
+        &--compilationFirst {
+            padding-top: 0;
+        }
         a {
             color: $text;
             &:hover {
@@ -68,6 +77,14 @@
 
     &__dropDownTitle {
         color:aliceblue;
+    }
+
+    &__dropDownСompilations {
+        border-left: 1px solid rgb(112, 107, 107);
+    }
+
+    &__dropDownSubscription {
+        margin-left: auto;
     }
 
 }
