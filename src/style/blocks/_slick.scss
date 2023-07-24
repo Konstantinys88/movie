@@ -2,25 +2,49 @@
     margin: auto;
     padding: 30px;
     width: 100%;
-    max-width: 600px;
+    // max-width: 1240px;
     box-sizing: border-box;
 }
 
-.slick--h3 {
+
+.slick--container {
     background: #fff;
     color: #3498db;
     font-size: 36px;
     line-height: 100px;
     margin: 10px;
-    padding: 2%;
+    // padding: 2%;
     position: relative;
     text-align: center;
+    height: 550px;
+    border-radius: 25px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+    }  
 }
 
 .slick-prev, .slick-next {
-    visibility: visible;
+    visibility: hidden;
 }
 
-// .slick-slide {
-//     height: 300px;
-// }
+.slick-slide {
+    opacity: 0.3;
+    transition: all 1s ease;
+
+}
+
+.slick-active {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+
+
+
+
+
+
+

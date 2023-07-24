@@ -4,10 +4,10 @@ export const slick = () => {
     $(".center").slick({
         centerMode: true,
         infinite: true,
-        centerPadding: "60px",
+        centerPadding: "330px",
         slidesToShow: 1,
         speed: 500,
-        autoplay: false,
+        autoplay: true,
         responsive: [
             {
                 breakpoint: 768,
