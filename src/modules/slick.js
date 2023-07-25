@@ -6,7 +6,7 @@ export const slick = () => {
         infinite: true,
         centerPadding: "330px",
         slidesToShow: 1,
-        speed: 500,
+        speed: 700,
         autoplay: true,
         responsive: [
             {
