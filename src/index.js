@@ -7,5 +7,7 @@ import { slick } from './modules/slick';
 
 dropBox();
 
-slick();
+slick(); //Главный слайдер
+
+$('.data').slick(); //Слайдер топ 10
 

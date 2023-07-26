@@ -1,0 +1,15 @@
+.cardTop10 {
+    width: 200px;
+    height: 400px;
+    &__image {
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 25px
+        }
+    }
+
+}

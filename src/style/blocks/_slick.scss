@@ -1,9 +1,24 @@
-.content {
+.slickMain {
     margin: auto;
     padding: 30px;
     width: 100%;
     // max-width: 1240px;
     box-sizing: border-box;
+    
+    .slick-prev, .slick-next {
+        visibility: hidden;
+    }
+
+    .slick-slide {
+        opacity: 0.3;
+        transition: all 1s ease;
+    
+    }
+    
+    .slick-active {
+        opacity: 1;
+        transition: all 1s ease;
+    }
 }
 
 
@@ -28,22 +43,12 @@
         object-fit: cover;
         border-radius: 25px;
     }  
-}
-
-.slick-prev, .slick-next {
-    visibility: hidden;
-}
-
-.slick-slide {
-    opacity: 0.3;
-    transition: all 1s ease;
 
 }
 
-.slick-active {
-    opacity: 1;
-    transition: all 1s ease;
-}
+
+
+
 
 
 
